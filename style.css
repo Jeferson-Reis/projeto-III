@@ -1,0 +1,399 @@
+ body {
+ 	font-family: 'Montserrat', sans-serif;
+ 	display: block;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow-x: hidden;
+ }
+
+header {
+	width: 100vw;
+	padding: 10px auto;
+	border-bottom: 1px solid grey;
+}
+
+.caixa {
+	position: relative;
+	width: 100%;
+	height: 64px;
+	display: flex;
+	padding: 0;
+}
+
+.logo-header{
+	width: auto;
+	height: 50px;
+	margin: 5px 5px;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	color: #1351D8;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+main {
+ 	margin-bottom: 80px;
+ 	width: 100vw;
+ }
+
+.home {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+	align-items: center;
+ }
+
+.imagem {
+  width: 75%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-items: center;
+
+ }
+
+.video {
+  margin: 10px 0;
+  width: 100%;
+
+  }
+.home p{
+	margin: 5px 5px;
+	padding: 0;
+
+}
+   
+table {
+ 	margin:auto;
+ 	width:80%;
+
+ }
+
+thead, tbody{
+ 	width: auto;
+ 	height: auto;
+
+ }
+
+th {
+	width: auto;
+	margin: 0 1.5%;
+	box-sizing: border-box;
+	padding: auto;
+
+}
+
+td div {
+	padding: 4px; 
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+}
+
+.carro {
+  height: 30px; 
+  width: 30px;
+  float: left;
+
+  }
+
+label {
+ 	color: blue;
+
+ }
+
+span{
+	font-size: 15px;
+	
+}
+
+.comparar {
+ 	margin: 10px 0;
+ 	width:auto;
+  padding: 15px 15px;
+  background: #1351D8;
+  color: white;
+  border: none;
+  transition: 1s all;
+  cursor: pointer;
+  border-radius: 10px;
+ }
+
+.comparar:hover{
+ 	background: darkblue;
+  transform: scale(1.2);
+ }
+
+.contato {
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	width: 100%;
+  }
+
+.form-contato {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  margin: 0;
+   }
+
+.ranger{
+ 	width:auto;
+ 	align-self: start;
+ 	display: flex;
+ 	padding-top: 90px;
+ }
+
+ main p {
+  text-align: left;
+  margin: 50px 0 10px 0;
+  font-weight: 300;
+}
+
+form p {
+  font-weight: bold;
+  }
+
+.msm {
+  margin: 0 0 10px;
+  font-weight: bold;
+  color: black;
+  }
+
+form input, form textarea { 
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+  }
+
+form select {
+  margin: 0 0 10px;
+  border: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  font-size: 20px;
+  padding: 10px 0;
+  background: #e6e6e6;
+
+  }
+
+.enviar {
+  width: 60%;
+  padding: 10px 0;
+  background: #1351D8;
+  color: white;
+  border: none;
+  transition: 1s all;
+  cursor: pointer;
+  align-self: flex-end;
+
+  	}
+
+.enviar:hover {
+  background: darkblue;
+  transform: scale(1.2);
+
+  }
+footer {
+	position: fixed;
+	background: #1B357E;
+  bottom: 0;
+  width:100%;    
+  height: 50px;
+  display: flex;
+
+}
+
+.rede {
+	width:auto;
+	height: 40px;
+}
+
+.caixa-pe {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 10px;
+	
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.logo-footer {
+	text-align: left;
+	margin: 0 50px 0;
+	display: flex;
+}
+
+@media screen and (max-width: 900px) {
+
+.logo-header {
+	width: auto;
+	height: 40px;
+}
+
+
+.caixa {
+	padding: none;
+	margin: auto;
+	padding: auto;
+	width: auto;
+	display: flex;
+}
+
+nav {
+	display: flex;
+	width: auto;
+}
+
+body {
+	min-height: 100vh;
+}
+
+main p {
+	text-align: center;
+	margin: 10px;
+}
+
+.home {
+	display: flex;
+}
+
+.imagem {
+	margin: auto;
+}
+
+.video {
+	width: auto;
+	display: flex;
+	margin: 10px 5px;		
+}
+	
+table {
+	height:auto;
+	width:auto;
+	display:block;
+}
+
+thead, tbody{
+	width:100%;
+	height:auto;
+	display: block;
+	padding: 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+th, td {
+	width: 33%;
+	padding: 4px;
+}
+
+td div {
+	width: auto;
+	padding: 0;
+
+}
+
+.thumb {
+	width: 100%;
+}
+
+.card {
+  width: 100%;
+  display: inline-flex;
+  padding: 0;
+}
+
+.carro {
+	width: auto;
+	margin:0;		
+	height: auto;
+}
+
+label {
+	display: inline;
+}
+	
+.info {
+	width: auto;
+	display: inline-flex;
+}
+
+.contato {
+	width:auto;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.ranger, .form-contato {
+	width: 100%;
+	padding: 0;
+}
+
+form select {
+	width: 100%;
+}
+
+footer {
+	height: auto;
+	width:100%;
+	display: flex;
+	position: fixed;
+}
+
+.rede {
+	width: auto;
+	height: 30px;
+}
+
+.copyright {
+	width: auto;
+	height: 50px;
+	display:inline-flex;
+	justify-content: flex-end;
+	align-items: flex-end;		
+}
+
+.caixa-pe {
+	padding: 0;
+}
+
+.logo-footer {
+	margin-right: 30px;
+	display: flex;
+	width:70px;
+}
+
+}
+
+
+
+ 
+
+

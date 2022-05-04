@@ -1,0 +1,61 @@
+header {
+    background: #FFFFFF;
+    padding: 10px 0 10px 10px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;   
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #1351D8;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ .imagem {
+ 	width: 80%;
+    margin: 10px 50px 20px 50px;
+ }
+
+ main p {
+    text-align: center;
+    margin: 10px 0 10px 0;
+    font-weight: 300;
+ }
+
+ footer {
+    background: #1B357E;
+    padding: 20px 0;
+}
+
+.caixa-pe {
+    position: relative;
+    margin: 10px 100px 10px 20px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 15px;
+    display: inline;
+}
+
+.log {
+    position: absolute;
+    right: 0;
+    display: inline;
+}
